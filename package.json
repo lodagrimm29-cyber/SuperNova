@@ -1,0 +1,13 @@
+{
+  "name": "supernova-browser",
+  "version": "1.0.0",
+  "description": "A localhost browser-in-browser web proxy with SSRF protections.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --check server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
